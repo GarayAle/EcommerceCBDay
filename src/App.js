@@ -1,11 +1,18 @@
 import './App.css';
 
+import NavBar from './components/NavBar/NavBar' ;
+
 function App() {
+
   return (
+    //JSX
     <div className="App">
-     <h1>Ecommerce CBDay</h1>
+      <NavBar/>
+     Ecommerce CBDay
     </div>
   );
 }
+
+
 
 export default App;
