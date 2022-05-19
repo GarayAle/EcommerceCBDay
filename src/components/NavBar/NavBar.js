@@ -1,11 +1,9 @@
 import './NavBar.css' 
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
-import Button from '@mui/material/Button';
-
+import CartWidget from '../CartWidget/CartWidget'
 
 const NavBar = () => {
-
     return (
         <AppBar position="static" className='header-primary'>
             <Toolbar>
@@ -23,11 +21,7 @@ const NavBar = () => {
                         <button>Productos</button>
                     </li>
                 </ul>
-                <Button color="inherit">
-                 
-                </Button>
-                
-              
+                <CartWidget/>
             </Toolbar>
         </AppBar>
         
