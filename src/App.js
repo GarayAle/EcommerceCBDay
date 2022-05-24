@@ -1,20 +1,14 @@
-import './App.css'
-import './test.css' ;
-import NavBar from './components/NavBar/NavBar' 
-
-
+import './App.css';
+import NavBar from './components/NavBar/NavBar';
+import ItemListContainer from './components/Card/ItemListContainer';
 
 function App() {
-
   return (
-    //JSX
     <div className="App">
-      <NavBar/>
-     Ecommerce CBDay
+      <NavBar />
+      <ItemListContainer tittle={'Lista de Productos'}/>
     </div>
   );
 }
-
-
 
 export default App;
