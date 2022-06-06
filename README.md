@@ -9,7 +9,7 @@ Ecommerce para la venta de Aceites Medicinales
     npm start
 
 
-<img src="https://github.com/GarayAle/EcommerceCBDay/tree/master/public/MiVideo.gif">
+<img src="https://github.com/GarayAle/EcommerceCBDay/blob/master/public/MiVideo.gif">
 
 ## Utilice MUI Material para la NavBar
 
@@ -20,7 +20,7 @@ Ecommerce para la venta de Aceites Medicinales
    Ecommerce en etapa de desarrollo, a profundizar lo visual.
 
 
-* **Alejandro Garay** - *Front End Developer en constante formación y aprendizaje* Abril 2022
+* **Alejandro Garay** - *Front End Developer en constante formación y aprendizaje* Junio 2022
 
 
 ## Expresiones de Gratitud 🎁
