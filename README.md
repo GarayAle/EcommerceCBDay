@@ -11,7 +11,7 @@ Ecommerce para la venta de Aceites Medicinales
 
 <img src="https://github.com/GarayAle/EcommerceCBDay/blob/bade9f57c68c56f9caacf1bd68f6e7a3f7b0eda2/public/MiVideo.gif">
 
-gi
+
 
 ## Utilice MUI Material para la NavBar
 
@@ -26,5 +26,3 @@ gi
 
 
 ## Expresiones de Gratitud 🎁
-
-## Gracias!
