@@ -23,7 +23,7 @@ const productos = [
         imgMini1: 'https://cannactiva.com/wp-content/uploads/2021/06/CANNACTIVA_EXTRACTS_POSTER_PURIFICADOS-05-100x100.png',
         imgMini2: 'https://cannactiva.com/wp-content/uploads/2021/06/CANNACTIVA_EXTRACTS_POSTER_PURIFICADOS-03-100x100.png',
         imgMini3: 'https://cannactiva.com/wp-content/uploads/2021/06/cannactiva_ALL-10ML-DROPPERS-pic_espanol_600-100x100.jpg',
-        descripcion: ' Aceite de CBD Purificado - 10% CBD / 30ml',
+        descripcion: 'Aceite de CBD Purificado - 10% CBD / 30ml',
         precio: 4000,
         stock: 10,
     }, {

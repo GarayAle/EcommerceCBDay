@@ -6,7 +6,8 @@ import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import { Link } from 'react-router-dom';
-import CartWidget from './CartWidget';
+import CartWidget from '../CartWidget/CartWidget';
+import productos from '../../utils/productsMock';
 
 const NavBar = () => {
     const [anchorEl, setAnchorEl] = useState(null);
@@ -18,12 +19,16 @@ const NavBar = () => {
         setAnchorEl(null);
     };
 
+    const agregarCategorias = productos.map((item) => {
+                return <div key={item.id}><MenuItem onClick={handleClose}><Link to={`/category/${item.categoria}`} className='Link'>{item.categoria}</Link></MenuItem></div>
+        })
+
     return (
         <AppBar position="static">
             <Toolbar>
                 <div className='logoImg'>
                     <Link to={'/'}>
-                        <img src='./logo.png' alt='Logo de la pagina'/>
+                        <img src='./logo.png' alt='Logo de la pagina' />
                     </Link>
                 </div>
                 <ul>
@@ -51,10 +56,11 @@ const NavBar = () => {
                             MenuListProps={{
                                 'aria-labelledby': 'basic-button',
                             }}
+
                         >
-                            <MenuItem onClick={handleClose}><Link to={'/category/Alto concentrado'} className='Link'>Alto concentrado</Link></MenuItem>
-                            <MenuItem onClick={handleClose}><Link to={'/category/Bajo concentrado'} className='Link'>Bajo concentrado</Link></MenuItem>
-                            
+                            {
+                            agregarCategorias
+                            }
                         </Menu>
                     </li>
                 </ul>
