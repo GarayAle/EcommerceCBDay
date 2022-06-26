@@ -2,7 +2,6 @@ import ItemList from '../ItemList/ItemList';
 import './ItemListContainer.css';
 import { useState, useEffect } from "react";
 import { useParams } from 'react-router-dom';
-import productos from '../../utils/productsMock';
 import { collection, getDocs } from "firebase/firestore";
 import db from '../../utils/firebaseConfig';
 
@@ -11,7 +10,7 @@ const ItemListContainer = ({ tittle }) => {
     const { category } = useParams();
 
     const getProduct = async () => {
-        const productSnapshot = await getDocs(collection(db, "Productos"));
+        const productSnapshot = await getDocs(collection(db, "productos"));
         const prodcuctList = productSnapshot.docs.map((doc) => {
             let producto = doc.data();
             producto.id = doc.id;
