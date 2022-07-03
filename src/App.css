@@ -2,7 +2,10 @@
 .App {
   text-align: center;
 }
-
+body{
+  background-image: url(../public/fondo.jpg);
+  background-size: cover;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

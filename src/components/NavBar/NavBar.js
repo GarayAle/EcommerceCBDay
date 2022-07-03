@@ -22,7 +22,7 @@ const NavBar = () => {
     };
 
     const getItem = async () => {
-        const productSnapshot = await getDocs(collection(db, "Productos"));
+        const productSnapshot = await getDocs(collection(db, "productos"));
         const prodcuctList = productSnapshot.docs.map((doc) => {
             let producto = doc.data();
             producto.id = doc.id;

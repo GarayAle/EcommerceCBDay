@@ -115,7 +115,7 @@ const CartContainer = () => {
                             {success ? (
                                 <div>
                                     <p>Felicidades! Su compra se realizó con éxito.</p>
-                                    <p>Su número de orden es: {success}</p>
+                                    <p>Su número de seguimiento es: {success}</p>
                                     <button onClick={finishOrder}>Volver a la tienda</button>
                                 </div>
                             ) : (

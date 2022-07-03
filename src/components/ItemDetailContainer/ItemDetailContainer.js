@@ -10,7 +10,7 @@ const ItemDetailContainer = () => {
     const [product, setProduct] = useState([]);
 
     const getItem = async () => {
-        const docRef = doc(db, "Productos", id);
+        const docRef = doc(db, "productos", id);
         const docSnapshop = await getDoc(docRef);
         let producto = docSnapshop.data();
         producto.id = docSnapshop.id;
